@@ -1,0 +1,222 @@
+*{
+    font-family: montserrat classic;
+}
+
+
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+
+    line-height: 1.6;
+    color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navigation {
+    background-color: #26503c;
+    color: #fbfbfb;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 15vh; /* unidade de medida */ 
+    
+
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    border-bottom: 2px solid #e0daf7;
+    
+}
+
+.navigation a:hover {
+    color: #10100f;
+}
+
+
+.atslog {
+    width: 200px;
+    height: 200px;
+}
+
+
+h1 {
+    font-size: 2rem;
+    color: black;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+
+h3 {
+    color: black;
+}
+
+p {
+    color: black;
+}
+
+nav ul {
+    list-style: none;
+  
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+ 
+}
+
+
+/* menu */
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+
+}
+
+
+.banner{
+    height: 10vh;
+    background-image: url(imagens/banner.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #26503c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner h3{
+    font-size: 2em;
+    color: #ffffff;
+}
+
+.banner h3 span{
+    color: #840943;
+}
+
+section {
+    padding: 20px;
+   
+}
+
+
+.sobre {
+    text-align: center;
+    text-align: justify;
+    display: grid;
+    background-color: #26503c;
+   
+}
+
+p {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+
+.habilidade{
+    
+    background-image: url(imagens/banner.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #26503c;
+    height: 20px;
+}
+
+.habilidade h3{
+    font-size: 2em;
+    color: #840943;
+}
+ 
+#skill {
+    border: 1px solid #26503c;
+    text-align: center;
+}
+
+
+
+
+
+.portifolio {
+    height: 20px;
+    background-image: url(imagens/banner.jpg);
+    background-position: 100% 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #26503c;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.portifolio h3 {
+    font-size: 2em;
+    color: #840943;
+}
+
+#portifoliopro {
+    background-color: #26503c;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.projeto {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    align-items: center;
+    
+}
+
+.projeto img {
+    width: 300px;
+    border: 1px solid #ffffff;
+    padding: 20px;
+    box-shadow: 0 2px 4px #a5acb1;
+    background-color: #000000;
+
+
+}
+
+.projeto img:hover {
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+#contato {
+    background-color: #e2e3d5;
+    text-align: center;
+   
+}
+
+
+
+footer {
+    background-color: #26503c;
+    color: #ffffff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.pfooter {
+    color: #ffffff;
+}

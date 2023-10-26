@@ -6,7 +6,7 @@
 /* Estilos gerais */
 body {
     font-family: Arial, sans-serif;
-
+    background-color: #e2e3d5;
     line-height: 1.6;
     color: #ffffff;
     margin: 0;
@@ -24,7 +24,6 @@ body {
     justify-content: space-between;
     height: 15vh; /* unidade de medida */ 
     
-
 }
 
 nav ul li {
@@ -108,7 +107,7 @@ nav ul li a {
 }
 
 section {
-    padding: 20px;
+    padding: 10px;
    
 }
 
@@ -118,13 +117,22 @@ section {
     text-align: justify;
     display: grid;
     background-color: #26503c;
-   
+    
+}
+
+.paras {
+    border: 1px solid white;
+    padding: 30px;
+    margin-left: 180px;
+    margin-right: 180px;
+    
 }
 
 p {
     color: white;
     margin-left: 10px;
     margin-right: 10px;
+    
     
 }
 
@@ -138,7 +146,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #26503c;
+    background-color: #e2e3d5;
     height: 20px;
 }
 
@@ -148,8 +156,13 @@ p {
 }
  
 #skill {
-    border: 1px solid #26503c;
+    
     text-align: center;
+}
+
+#skill img {
+    border: 1px solid #26503c;
+    padding: 8px;
 }
 
 
@@ -166,6 +179,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+    
 }
 
 .portifolio h3 {
@@ -177,22 +191,31 @@ p {
     background-color: #26503c;
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
 }
+
+
 
 .projeto {
     display: flex;
     flex-direction: column;
     margin-bottom: 20px;
     align-items: center;
+   
     
 }
 
+
+
 .projeto img {
-    width: 300px;
+    width: 600px;
     border: 1px solid #ffffff;
     padding: 20px;
     box-shadow: 0 2px 4px #a5acb1;
     background-color: #000000;
+    
 
 
 }
@@ -206,6 +229,10 @@ p {
     background-color: #e2e3d5;
     text-align: center;
    
+}
+
+#contato p {
+    color: #000000;
 }
 
 
